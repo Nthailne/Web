@@ -1,0 +1,79 @@
+*{
+    padding :0;
+    margin:0;
+    text-decoration:none; /* removes underline*/
+    list-style:none; /* removes dots from list*/
+    box-sizing:border-box;
+}
+
+body{
+    font-family:montserrat;
+}
+
+nav{ /* creates top navigation ar block*/
+    background: black;
+    height:80px;
+    width:100%
+}
+
+#logo{ /* makes it round*/
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    
+    
+}
+nav ul {
+    float: right;
+    margin-right: 20px; /* moving text to the right of the page in the navigation bar*/
+}
+
+nav ul li {
+    display: inline-block; /* displays across each other*/
+    line-height:80px;
+    margin:0 5px;
+}
+nav ul li a{
+    color:white;
+    font-size : 17px;
+    padding: 7px 13px;
+    border-radius:3px; /* corner of the border*/
+    text-transform: uppercase;
+}
+
+a.active,a:hover{
+    background:rgb(165, 159, 159); 
+}      
+  
+.gallery{ /* class for the images*/
+    display:inline-block;/*displays next to eachother*/
+    margin:10px; /*space*/
+    transition:1s;
+    margin-left: 5%;
+    
+}
+
+.description{ /*writing at the bottom of images*/
+    padding:5px;
+    text-align:center;
+    color:white;
+}
+.gallery:hover{
+    transform:scale(1.2);
+    z-index: 2; /* Makes photo bigger when when hover over it */
+}
+#heading{
+    text-align:center; 
+    color:white;
+}
+body {
+    background-image: url("barberbackgroundimg.jpg");}
+
+
+
+
+
+
+
+
+
